@@ -2,10 +2,15 @@
   "name": "portfolio",
   "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "package.json",
   "author": "Obi Fortune <gabrielobi.of@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ickynavigator/portfolio-sanity-studio"
+  },
+  "bugs": {
+    "url": "https://github.com/ickynavigator/portfolio-sanity-studio/issues"
+  },
   "scripts": {
     "start": "sanity start",
     "dev": "yarn start",
