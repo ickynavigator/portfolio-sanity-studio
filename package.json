@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
-  "private": true,
+  "name": "portfolio-sanity-studio",
   "version": "1.0.0",
+  "private": true,
   "author": "Obi Fortune <gabrielobi.of@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -44,8 +44,5 @@
   },
   "peerDependencies": {
     "@babel/core": "^7.15.5"
-  },
-  "lint-staged": {
-    "*": "yarn format"
   }
 }
