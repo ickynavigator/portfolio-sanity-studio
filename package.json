@@ -15,7 +15,7 @@
     "start": "sanity start",
     "dev": "yarn start",
     "format": "prettier -w .",
-    "lint": "echo \" NO LINT SETUP YET \"",
+    "lint": "echo \"NO LINT SETUP YET \"",
     "build": "sanity build dist -y",
     "graphql-deploy": "sanity graphql deploy --playground",
     "prepare": "husky install"
