@@ -13,11 +13,12 @@
   },
   "scripts": {
     "start": "sanity start",
-    "dev": "yarn start",
+    "dev": "sanity start",
     "format": "prettier -w .",
     "lint": "echo \"NO LINT SETUP YET \"",
     "build": "sanity build dist -y",
     "graphql-deploy": "sanity graphql deploy --playground",
+    "push": "git push -u origin --all",
     "prepare": "husky install"
   },
   "keywords": [
