@@ -10,6 +10,7 @@
     "start": "sanity start",
     "dev": "yarn start",
     "format": "prettier -w .",
+    "lint": "echo \" NO LINT SETUP YET \"",
     "build": "sanity build dist -y",
     "graphql-deploy": "sanity graphql deploy --playground",
     "prepare": "husky install"
@@ -33,9 +34,13 @@
   "devDependencies": {
     "@sanity/cli": "^2.20.0",
     "husky": "^7.0.2",
+    "lint-staged": ">=10",
     "prettier": "^2.4.1"
   },
   "peerDependencies": {
     "@babel/core": "^7.15.5"
+  },
+  "lint-staged": {
+    "*": "yarn format"
   }
 }
