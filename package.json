@@ -18,6 +18,7 @@
     "lint": "echo \"NO LINT SETUP YET \"",
     "build": "sanity build dist -y",
     "graphql-deploy": "sanity graphql deploy --playground",
+    "codegen": "sanity-codegen",
     "push": "git push -u origin --all",
     "prepare": "husky install"
   },
