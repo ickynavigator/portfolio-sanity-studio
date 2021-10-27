@@ -1169,15 +1169,28 @@
     make-error "^1.3.0"
     object-assign "^4.1.1"
 
+"@sanity/client@2.21.7":
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-2.21.7.tgz#563d6707f74f4502891978ecc901b4fdd6b1f7ba"
+  integrity sha512-/JkDn+2pGR6cIgwADxaJpzPwT9gDjkHYabfSTux4lcgZ8Sv6YtfjzTl3DhMlDIA2EodAvJG9Fkff0BI12SwKcA==
+  dependencies:
+    "@sanity/eventsource" "2.14.0"
+    "@sanity/generate-help-url" "2.18.0"
+    "@sanity/observable" "2.0.9"
+    deep-assign "^2.0.0"
+    get-it "^5.0.3"
+    make-error "^1.3.0"
+    object-assign "^4.1.1"
+
 "@sanity/color@^2.1.5":
   version "2.1.5"
   resolved "https://registry.npmjs.org/@sanity/color/-/color-2.1.5.tgz#63579cf729a42cc004fa850b46b674510a700bda"
   integrity sha512-miq04+tp9I0/k8TooM/iB1ifpjVaWke9Pg+GD4SbrZ+YQkqaMqQFvzu4JjPr55lMkBrzOjE4JHrwBO/bzgottw==
 
-"@sanity/core@^2.21.5":
-  version "2.21.5"
-  resolved "https://registry.npmjs.org/@sanity/core/-/core-2.21.5.tgz#946813791f947e156b9cc83cc9c8b00d56895653"
-  integrity sha512-PH16QqsBlz6VjMejlZCsdWBJ7SYwTf2lGriBTiyWaE83pWJPooTL8aEKIV9tVGDWRniZ2aucbbcT+3Vbpv7lPg==
+"@sanity/core@^2.21.7":
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/@sanity/core/-/core-2.21.7.tgz#1b84e5f2f8225b755756d42f269cdb9a9603adf2"
+  integrity sha512-uu+EBS03L6EcxU5NTx9/J94UxWmstFxdWZWx/ku43BKSbJUU5AdvlBhmiBQcoDE57NXoYkAcGwWA3cQ4mLas6w==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.10.4"
     "@babel/preset-env" "^7.11.5"
@@ -1187,14 +1200,14 @@
     "@sanity/eventsource" "2.14.0"
     "@sanity/export" "2.21.0"
     "@sanity/generate-help-url" "2.18.0"
-    "@sanity/import" "2.21.3"
-    "@sanity/plugin-loader" "2.21.4"
-    "@sanity/resolver" "2.21.4"
+    "@sanity/import" "2.21.7"
+    "@sanity/plugin-loader" "2.21.7"
+    "@sanity/resolver" "2.21.7"
     "@sanity/schema" "2.21.5"
-    "@sanity/server" "2.21.4"
-    "@sanity/util" "2.21.4"
+    "@sanity/server" "2.21.7"
+    "@sanity/util" "2.21.7"
     "@sanity/uuid" "^3.0.1"
-    "@sanity/webpack-integration" "2.21.4"
+    "@sanity/webpack-integration" "2.21.7"
     chalk "^2.4.2"
     chokidar "^3.0.0"
     configstore "^5.0.1"
@@ -1427,10 +1440,10 @@
     debug "^3.2.7"
     lodash "^4.17.15"
 
-"@sanity/import@2.21.3":
-  version "2.21.3"
-  resolved "https://registry.npmjs.org/@sanity/import/-/import-2.21.3.tgz#c76ce515f18e7bc0dc4998816399f318bf4ae68b"
-  integrity sha512-cPaWZcWKjPkWnPdkmcrGYdXS3JvZX2S7ZrmIJ72S+RPXQNnbytDY4Kd50nnId6d+faaGIvSbNCpM0C/GJwK4JA==
+"@sanity/import@2.21.7":
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/@sanity/import/-/import-2.21.7.tgz#e8a56932666ac5cca60b9894f330308e55f12b8b"
+  integrity sha512-BAVwfKEUNTdDY68v8P15dnFaX9lAfjYxDH+yD9aQ1lzc5jIKvKSn4H9SP5TEEzkopUSrlQwczSa4LuuVoWn+lQ==
   dependencies:
     "@sanity/asset-utils" "^1.2.0"
     "@sanity/generate-help-url" "2.18.0"
@@ -1486,14 +1499,14 @@
     object-assign "^4.1.1"
     rxjs "^6.5.3"
 
-"@sanity/plugin-loader@2.21.4":
-  version "2.21.4"
-  resolved "https://registry.npmjs.org/@sanity/plugin-loader/-/plugin-loader-2.21.4.tgz#bd193e9d8c1b97206d6ab4d438b3439e6dbe86e1"
-  integrity sha512-s/L+GnZF5/MqCROhrdlikvc5N3pG8NX1DPaa56Z/fronh3JImvhpfpzwStcCKFL6SWiwQvHjtauVRA3Zo0Z6uA==
+"@sanity/plugin-loader@2.21.7":
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/@sanity/plugin-loader/-/plugin-loader-2.21.7.tgz#c10ef0a82a66bda71b0df55eb9272bb47b86f78f"
+  integrity sha512-hjvoV2Ksqr87S7qfWifKuJ37rwoXV0F8FCNwJxe6GbUSJmqKOAkevmIZxaWBNovEPkHKNvITTQbUsBby832PuA==
   dependencies:
-    "@sanity/resolver" "2.21.4"
-    "@sanity/util" "2.21.4"
-    "@sanity/webpack-integration" "2.21.4"
+    "@sanity/resolver" "2.21.7"
+    "@sanity/util" "2.21.7"
+    "@sanity/webpack-integration" "2.21.7"
     css-modules-require-hook "4.1.0"
     interop-require "^1.0.0"
 
@@ -1521,13 +1534,13 @@
     react-rx "^1.0.0-beta.6"
     rxjs "^6.5.3"
 
-"@sanity/resolver@2.21.4":
-  version "2.21.4"
-  resolved "https://registry.npmjs.org/@sanity/resolver/-/resolver-2.21.4.tgz#1b807f1920c462eb9ca7218b5aeec697e445b412"
-  integrity sha512-7NUth8Rb6+xSR20MpjEvkk6eHQqdF1h9D9uGsNXV8GT7dwgPT6N+UFlgsNhYoUuLtlpg8VbVwsOb4OfIHQzmEg==
+"@sanity/resolver@2.21.7":
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/@sanity/resolver/-/resolver-2.21.7.tgz#7c7d95ecce0d91bd578c1389e1c04c6458bcfffe"
+  integrity sha512-1tEqUTOr8qmFhaXS/si5zfMc574Bz6UX1IJo0zn4lsi7ajYNrlbU3Y2mEuUEmvpz3cFBe/CwJcxwg7SPavYAkg==
   dependencies:
     "@sanity/generate-help-url" "2.18.0"
-    "@sanity/util" "2.21.4"
+    "@sanity/util" "2.21.7"
     fs-extra "^7.0.0"
     lodash "^4.17.15"
     path-exists "^3.0.0"
@@ -1545,10 +1558,10 @@
     lodash "^4.17.15"
     object-inspect "^1.6.0"
 
-"@sanity/server@2.21.4":
-  version "2.21.4"
-  resolved "https://registry.npmjs.org/@sanity/server/-/server-2.21.4.tgz#d5e3152c3182b5459dc7ec836b1cb5e28ce91a67"
-  integrity sha512-9cxMMFzSVV9JWgh5OcfcFeCT5VkJUOXOXZFVSdwii9Lz0G46pcf5vAjFFs00iA8NqqGQL5JBxNaWpccm/ICbeg==
+"@sanity/server@2.21.7":
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/@sanity/server/-/server-2.21.7.tgz#0f14be99e8e9a4456159f30d2dd33b93b1eb92b1"
+  integrity sha512-Oew/BhA/gBJvlvaw7lH0ElkG1PAOlgcPHlrehVlBeAbQJpmDjHSdOscdgiJA0zHGhDzB8+0ynF+wsgMGN5IVpw==
   dependencies:
     "@babel/core" "^7.11.6"
     "@babel/plugin-proposal-class-properties" "^7.10.4"
@@ -1559,10 +1572,10 @@
     "@hot-loader/react-dom" "^16.9.0-4.12.11"
     "@sanity/css-loader" "^0.28.12"
     "@sanity/eventsource" "2.14.0"
-    "@sanity/resolver" "2.21.4"
-    "@sanity/util" "2.21.4"
+    "@sanity/resolver" "2.21.7"
+    "@sanity/util" "2.21.7"
     "@sanity/webpack-dev-middleware" "^2.0.6"
-    "@sanity/webpack-integration" "2.21.4"
+    "@sanity/webpack-integration" "2.21.7"
     babel-loader "^8.0.6"
     eventsource-polyfill "^0.9.6"
     express "^4.16.1"
@@ -1642,6 +1655,17 @@
     react "17.0.1"
     rxjs "^6.5.3"
 
+"@sanity/types@2.21.7":
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/@sanity/types/-/types-2.21.7.tgz#445d497a21ac85479c5d6be7256fc2fab915ea1d"
+  integrity sha512-2t7rI/5TYvNQR3QUnogxV7Q7MaOOv+tiRlqWTLUpzWm49wujwkAUjEFYtwLN4zhAaGNlXNABcm/AZoVSHSS04w==
+  dependencies:
+    "@sanity/client" "2.21.7"
+    "@sanity/color" "^2.1.5"
+    "@types/react" "^17.0.0"
+    react "17.0.1"
+    rxjs "^6.5.3"
+
 "@sanity/ui@^0.36.12":
   version "0.36.12"
   resolved "https://registry.npmjs.org/@sanity/ui/-/ui-0.36.12.tgz#cdc0fde42869dfe2a8fc9c7afdbcbc1cac020e6c"
@@ -1664,6 +1688,19 @@
   integrity sha512-y0CNkhkzTf7E1ys0vo38uxFTo1pVcELn5VdxhcKw3LwihRsFa6w5KkjmnCr6OddAyvg8xUqWEN3nxb8V/gCw2A==
   dependencies:
     "@sanity/types" "2.21.4"
+    dotenv "^8.2.0"
+    fs-extra "^7.0.0"
+    get-random-values "^1.2.2"
+    lodash "^4.17.15"
+    moment "^2.19.1"
+    resolve-from "^4.0.0"
+
+"@sanity/util@2.21.7":
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/@sanity/util/-/util-2.21.7.tgz#4563929160ffabe36450bf5a0f495e5c2e9d9640"
+  integrity sha512-pXDNJyCF2MgRhzwgtAQCQfQs4ify+xaZQLJ7HaZv4mn3I7yJ7dWsZeYSiBStTkxZLkLDiwOE5VJV2q01nvp2kw==
+  dependencies:
+    "@sanity/types" "2.21.7"
     dotenv "^8.2.0"
     fs-extra "^7.0.0"
     get-random-values "^1.2.2"
@@ -1720,13 +1757,13 @@
     url-join "^2.0.2"
     webpack-log "^1.0.1"
 
-"@sanity/webpack-integration@2.21.4":
-  version "2.21.4"
-  resolved "https://registry.npmjs.org/@sanity/webpack-integration/-/webpack-integration-2.21.4.tgz#ee1f8c5a33545f4ba11c29921dd04b949609d6de"
-  integrity sha512-d1AEZOjgpVGKfqfMaegLmmw7tfNTW43bEtfLYLmKP2tggcppdk7DyIF+EPDdjfShR6CzPVAbqPZMjAPQXvhPRg==
+"@sanity/webpack-integration@2.21.7":
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/@sanity/webpack-integration/-/webpack-integration-2.21.7.tgz#56a7e5a768e56ff1d7207687bb5d3601d23c1743"
+  integrity sha512-MfJZVKcGWStPHDwCxw8zwwQUJWEetDwAEjIad2JQcIGYO0qk1ArQrydRVij7sZP9kjPozrVs/zBb9YHgpFQ+lA==
   dependencies:
-    "@sanity/resolver" "2.21.4"
-    "@sanity/webpack-loader" "2.21.4"
+    "@sanity/resolver" "2.21.7"
+    "@sanity/webpack-loader" "2.21.7"
     css-color-function "^1.3.3"
     dotenv "^8.2.0"
     fs.realpath "^1.0.0"
@@ -1740,13 +1777,13 @@
     postcss-url "^7.3.1"
     resolve "^1.3.3"
 
-"@sanity/webpack-loader@2.21.4":
-  version "2.21.4"
-  resolved "https://registry.npmjs.org/@sanity/webpack-loader/-/webpack-loader-2.21.4.tgz#a85cb4bbbcc2e3e888b499159ce674ad227b10d1"
-  integrity sha512-P85m9847sFfqLvekxwdN3g1QmujazIYrRTJNTZMBjPN0eQj/nG8rztXTXKLUYqYF+IoW6Zg8W+AOdVmflbjjRw==
+"@sanity/webpack-loader@2.21.7":
+  version "2.21.7"
+  resolved "https://registry.yarnpkg.com/@sanity/webpack-loader/-/webpack-loader-2.21.7.tgz#58764b5291ba1e89187e19de7fa6470db40942ab"
+  integrity sha512-NPal25+z7UI/hyn79rKYADb/XKLLF1x9ml0QReLm62zPtyzA/KMZxneCs3RiOd4aWooS0nGE6d3VSFMIF+QyWA==
   dependencies:
-    "@sanity/resolver" "2.21.4"
-    "@sanity/util" "2.21.4"
+    "@sanity/resolver" "2.21.7"
+    "@sanity/util" "2.21.7"
     loader-utils "1.1.0"
 
 "@types/diff-match-patch@^1.0.32":
