@@ -30,7 +30,7 @@
     "@sanity/base": "^2.21.7",
     "@sanity/core": "^2.21.7",
     "@sanity/default-layout": "^2.21.7",
-    "@sanity/default-login": "^2.21.7",
+    "@sanity/default-login": "^2.21.10",
     "@sanity/desk-tool": "^2.21.7",
     "@sanity/vision": "^2.21.7",
     "prop-types": "^15.7",
