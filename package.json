@@ -27,7 +27,7 @@
     "portfolio"
   ],
   "dependencies": {
-    "@sanity/base": "^2.21.7",
+    "@sanity/base": "^2.22.0",
     "@sanity/core": "^2.21.7",
     "@sanity/default-layout": "^2.21.7",
     "@sanity/default-login": "^2.21.7",
