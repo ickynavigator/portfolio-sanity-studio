@@ -4,18 +4,19 @@ import createSchema from 'part:@sanity/base/schema-creator';
 // Then import schema types from any plugins that might expose them
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 
-// We import object and document schemas
-import blockContent from './blockContent';
+// We import object schemas
+import blockContent from './objects/blockContent';
+import fontawesomeIcon from './objects/fontAwesomeWrapper';
+import issuerWrapper from './objects/issuerWrapper';
+import socialLink from './objects/socialLink';
+import urlWrapper from './objects/urlWrapper';
 
-import category from './category';
-import author from './author';
-import personalInfo from './personalInfo';
-import project from './project';
-import certificate from './certificate';
-import socialLink from './socialLink';
-import issuerWrapper from './issuerWrapper';
-import urlWrapper from './urlWrapper';
-import fontawesomeIcon from './fontAwesomeWrapper';
+// We import document schemas
+import category from './documents/category';
+import author from './documents/author';
+import personalInfo from './documents/personalInfo';
+import project from './documents/project';
+import certificate from './documents/certificate';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
