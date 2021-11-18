@@ -3,7 +3,19 @@ export default {
   title: 'Fontawesome Icon',
   type: 'object',
   fields: [
-    { name: 'IconPrefix', title: 'Fontawesome Icon Prefix', type: 'string' },
-    { name: 'IconName', title: 'Fontawesome Icon Name', type: 'string' },
+    {
+      name: 'IconPrefix',
+      title: 'Fontawesome Icon Prefix',
+      type: 'string',
+      codegen: { required: true },
+      validation: Rule => Rule.required(),
+    },
+    {
+      name: 'IconName',
+      title: 'Fontawesome Icon Name',
+      type: 'string',
+      codegen: { required: true },
+      validation: Rule => Rule.required(),
+    },
   ],
 };

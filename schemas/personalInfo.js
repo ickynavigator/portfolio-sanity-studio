@@ -3,14 +3,28 @@ export default {
   title: 'Personal Info',
   type: 'document',
   fields: [
-    { name: 'name', title: 'Name', type: 'string' },
+    {
+      name: 'name',
+      title: 'Name',
+      type: 'string',
+      codegen: { required: true },
+      validation: Rule => Rule.required(),
+    },
     {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
       options: { source: 'name', maxLength: 96 },
+      codegen: { required: true },
+      validation: Rule => Rule.required(),
     },
-    { name: 'title', title: 'Title', type: 'string' },
+    {
+      name: 'title',
+      title: 'Title',
+      type: 'string',
+      codegen: { required: true },
+      validation: Rule => Rule.required(),
+    },
     {
       name: 'jobStatus',
       title: 'Job Status',
@@ -23,6 +37,8 @@ export default {
         ],
         layout: 'radio',
       },
+      codegen: { required: true },
+      validation: Rule => Rule.required(),
     },
     { name: 'CV', title: 'Curriculum Vitae', type: 'file' },
     {
@@ -30,11 +46,15 @@ export default {
       title: 'Image',
       type: 'image',
       options: { hotspot: true },
+      codegen: { required: true },
+      validation: Rule => Rule.required(),
     },
     {
       name: 'bio',
       title: 'Bio',
       type: 'array',
+      codegen: { required: true },
+      validation: Rule => Rule.required(),
       of: [
         {
           title: 'Block',
