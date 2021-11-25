@@ -17,6 +17,7 @@ import author from './documents/author';
 import personalInfo from './documents/personalInfo';
 import project from './documents/project';
 import certificate from './documents/certificate';
+import contactForms from './documents/contactForms';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -30,7 +31,7 @@ export default createSchema({
     personalInfo,
     project,
     certificate,
-
+    contactForms,
     category,
     author,
     // When added to this list, object types can be used as
