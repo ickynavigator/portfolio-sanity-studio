@@ -1446,14 +1446,14 @@
     react-rx "^1.0.0-beta.6"
     rxjs "^6.5.3"
 
-"@sanity/default-login@^2.21.7":
-  version "2.21.7"
-  resolved "https://registry.yarnpkg.com/@sanity/default-login/-/default-login-2.21.7.tgz#c561f8afaf89e2e58842123128a546bf11ba8555"
-  integrity sha512-+NYCct+ZXe9pNhNmDsv52dJ72+6OBjXcwfW/NgHou1NLop+mQbYSdFyTXodwRaH/ZVknTralgbo2xOh9VVz5Pg==
+"@sanity/default-login@^2.22.0":
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/@sanity/default-login/-/default-login-2.22.0.tgz#5ace3374fa2c456fc693412cc03300b17a5d6326"
+  integrity sha512-5jHc9xtazMR5goA1vipi6XspY8BzIItBK1kG3zLthvkBuEEwAQE00HPtU96IWQ5kHMZTHWCps3HjzN6fKHmDXw==
   dependencies:
     "@sanity/generate-help-url" "2.18.0"
     "@sanity/logos" "^1.1.6"
-    "@sanity/ui" "^0.36.12"
+    "@sanity/ui" "^0.36.15"
     prop-types "^15.6.0"
     rxjs "^6.5.3"
 
@@ -1841,7 +1841,7 @@
     react "17.0.1"
     rxjs "^6.5.3"
 
-"@sanity/ui@^0.36.12", "@sanity/ui@^0.36.15":
+"@sanity/ui@^0.36.15":
   version "0.36.15"
   resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-0.36.15.tgz#fd378890983b7f1332a389d4eb954993c1c146b7"
   integrity sha512-4IuyCpfJycfVB2PtWyUbD1bWvrTadH1fko3mmhbttggVXOSeclh0DIUP1595ckgZhjYVrM7QqxUn0wdSfRBnjQ==
