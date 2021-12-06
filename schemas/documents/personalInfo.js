@@ -41,6 +41,7 @@ export default {
       validation: Rule => Rule.required(),
     },
     { name: 'CV', title: 'Curriculum Vitae', type: 'file' },
+    { name: 'CVLastUpdatedAt', title: 'CV Last Updated at', type: 'date' },
     {
       name: 'image',
       title: 'Image',
