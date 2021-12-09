@@ -16,7 +16,7 @@
     "dev": "sanity start",
     "format": "prettier -w .",
     "lint": "echo \"NO LINT SETUP YET \"",
-    "build": "sanity build dist -y",
+    "build": "sanity build build -y",
     "graphql-deploy": "sanity graphql deploy --playground",
     "codegen": "sanity-codegen",
     "push": "git push -u origin --all",
