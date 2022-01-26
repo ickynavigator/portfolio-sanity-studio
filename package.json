@@ -32,7 +32,7 @@
     "@sanity/default-layout": "^2.25.0",
     "@sanity/default-login": "^2.24.1",
     "@sanity/desk-tool": "^2.25.0",
-    "@sanity/vision": "^2.25.0",
+    "@sanity/vision": "^2.25.1",
     "prop-types": "^15.8.1",
     "react": "^17.0",
     "react-dom": "^17.0",
