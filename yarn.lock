@@ -1435,12 +1435,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-2.18.0.tgz#9130301579ff38b6bcc2ea0ce6105a7979272a66"
   integrity sha512-If8Qkw32LWPes16UzqwUsTLgfxF5d4ACdUvCLMl6grJc/5G8LKPAGCQUuA/d1F4W16yCJVV7Zv31HDRDXJSJkg==
 
-"@sanity/icons@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-1.2.2.tgz#6fe5cb74cf75757aee864ea13c2740329046b615"
-  integrity sha512-lhA6f/K5r8ajL8PrrCftJe6ry/6VGSD1JZSwZiEodVZgkuZOZLs1mU8E0LXUXEyj8QRlvKpifv2xRbY7rWimQg==
-
-"@sanity/icons@^1.2.3":
+"@sanity/icons@^1.2.1", "@sanity/icons@^1.2.3":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-1.2.3.tgz#58b1f3c0d2a8bb13731c5d91ca96461c29bc5cd9"
   integrity sha512-yp/o9Kd/4gEncihLrly/PNXo77Z6+xHkEZP4K2/C+PJ7/dXR7Nyy4Lj729tR/0SQKA/Rc8WEapGQCPmWVBvHOQ==
@@ -1722,11 +1717,12 @@
     date-fns "^2.16.1"
     lodash "^4.17.15"
 
-"@sanity/vision@^2.25.0":
-  version "2.25.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-2.25.0.tgz#852e736a028748e8f2fa2e40123ab6e7280a5335"
-  integrity sha512-Whal6mzTIGordOv3pF408AtWt6u5LEVM+wOnQ8wekK+C6zZ0j++JiAMW3i+RegQtawd10fXaJ8+XgsWWYGnItA==
+"@sanity/vision@^2.28.2":
+  version "2.28.2"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-2.28.2.tgz#ce6855a5078bd041d9a4394790f621c1bf2a6398"
+  integrity sha512-Nk27ZO5eKqzeSsVZtb25EErD18epddNWuhzzdGoBZRRBmXfhRm1sJziU3mF9CIrHggVlAxj4jsy/DP92J6SR5A==
   dependencies:
+    "@juggle/resize-observer" "^3.3.1"
     "@sanity/icons" "^1.2.1"
     "@sanity/ui" "^0.37.2"
     classnames "^2.2.5"
