@@ -29,7 +29,7 @@
   "dependencies": {
     "@sanity/base": "^2.25.0",
     "@sanity/core": "^2.25.0",
-    "@sanity/default-layout": "^2.25.0",
+    "@sanity/default-layout": "^2.29.3",
     "@sanity/default-login": "^2.24.1",
     "@sanity/desk-tool": "^2.25.0",
     "@sanity/vision": "^2.25.0",
