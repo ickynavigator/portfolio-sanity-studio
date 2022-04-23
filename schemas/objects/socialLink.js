@@ -18,9 +18,11 @@ export default {
       validation: Rule => Rule.required(),
     },
     {
-      name: 'icon',
-      title: 'Social Media Icon',
-      type: 'fontawesomeIcon',
+      name: 'iconName',
+      title: 'react-icons icon name',
+      type: 'string',
+      codegen: { required: true },
+      validation: Rule => Rule.required(),
     },
   ],
 };
