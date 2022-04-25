@@ -1424,17 +1424,17 @@
     prop-types "^15.6.0"
     rxjs "^6.5.3"
 
-"@sanity/desk-tool@^2.25.0":
-  version "2.29.5"
-  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.29.5.tgz#fce65085e17b54dc1b47c9b0a04a606da794ece3"
-  integrity sha512-+147lzN0NzoyerG01Zg0SFIolb6PWtdupODhOyPz8bu86dE31aKTbxPGzqLYVtovRivb/KHGueJoVMgczWaDAQ==
+"@sanity/desk-tool@^2.29.6":
+  version "2.29.6"
+  resolved "https://registry.yarnpkg.com/@sanity/desk-tool/-/desk-tool-2.29.6.tgz#14c632914be977539e9d749aadf7894a4d19f786"
+  integrity sha512-KFKnUCfv9TXXZ7oib9GKZAIlgIJWdg3CbXrL04nByeTK86EaqzhwsOyI+VBsOu7gWqRvLCXpMAbmbd+3ZFvVog==
   dependencies:
     "@reach/auto-id" "^0.13.2"
     "@sanity/client" "^3.2.0"
     "@sanity/data-aspects" "2.29.3"
     "@sanity/diff" "2.29.3"
     "@sanity/field" "2.29.5"
-    "@sanity/form-builder" "2.29.5"
+    "@sanity/form-builder" "2.29.6"
     "@sanity/generate-help-url" "^3.0.0"
     "@sanity/icons" "^1.2.6"
     "@sanity/react-hooks" "2.29.5"
@@ -1506,10 +1506,10 @@
     lodash "^4.17.15"
     sanity-diff-patch "^1.0.9"
 
-"@sanity/form-builder@2.29.5":
-  version "2.29.5"
-  resolved "https://registry.yarnpkg.com/@sanity/form-builder/-/form-builder-2.29.5.tgz#0b4bdc2e5be5d9ed135111ce5427ee084e52ac40"
-  integrity sha512-2bQoYnrwIQmGVFJrxZq2BVBKDpA1y3zk3KDXjzV79CKIxpyr1c2C7YNt2NsdpEY9UbHD46GXsTfcFLtB/uZw8A==
+"@sanity/form-builder@2.29.6":
+  version "2.29.6"
+  resolved "https://registry.yarnpkg.com/@sanity/form-builder/-/form-builder-2.29.6.tgz#968834124124a5e9bafcf5491d69839a6da5ef8a"
+  integrity sha512-mPMXTjT0W91fW0peW5AYIE5NMGbxpjm5NkS/IT4qjejhzMI0M9fXWZxnb9EhFZVirDvQ7T2+RbOWzLZOpAtuRg==
   dependencies:
     "@reach/auto-id" "^0.13.2"
     "@sanity/base" "2.29.5"
@@ -1552,15 +1552,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-3.0.0.tgz#60e9cba61b82103ea3761730a53cd9310b98892d"
   integrity sha512-wtMYcV5GIDIhVyF/jjmdwq1GdlK07dRL40XMns73VbrFI7FteRltxv48bhYVZPcLkRXb0SHjpDS/icj9/yzbVA==
 
-"@sanity/icons@^1.0.8", "@sanity/icons@^1.2.2":
+"@sanity/icons@^1.0.8", "@sanity/icons@^1.2.2", "@sanity/icons@^1.2.6", "@sanity/icons@^1.2.7":
   version "1.2.8"
   resolved "https://registry.npmjs.org/@sanity/icons/-/icons-1.2.8.tgz#7d899a83104cb13c434a02f1e73e981148980c63"
   integrity sha512-WkFb1HGxzXQa+d7ETxIU5KF6TBok9RmbGPdS3H0rLJy302bjIEtUevDA3V6Lxu6j3oyVCOFj/Te5iaoTPqgSqw==
-
-"@sanity/icons@^1.2.6", "@sanity/icons@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-1.2.7.tgz#f7e442a25d3a96ab98f6b600ab623693ba3deefe"
-  integrity sha512-4E4idufdRrHuvTjZipnJp5Og+hrmB+n7xbwQLi0xCllRqbssbxDZ2Nnj4tc467SocP1RYbPGHD/sBTO8rxsUQg==
 
 "@sanity/image-url@^1.0.1":
   version "1.0.1"
@@ -6815,12 +6810,7 @@ nano-pubsub@^2.0.1:
   resolved "https://registry.yarnpkg.com/nano-pubsub/-/nano-pubsub-2.0.1.tgz#59f3b7b6ed06868d879a10bdc9d082d9a27ee3ae"
   integrity sha512-RWgGP2TdeKZLx+guR5a7/BzYs85sj6yrXXyj0o/znbgzPlz/Ez9wQuKDpwUZ8q+u2RxXpqZ1iTkPXCIU+GHhpA==
 
-nanoid@^3.1.12, nanoid@^3.1.30, nanoid@^3.3.1:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.2.tgz#c89622fafb4381cd221421c69ec58547a1eec557"
-  integrity sha512-CuHBogktKwpm5g2sRgv83jEy2ijFzBwMoYA60orPDR7ynsLijJDqgsi4RDGj3OJpy3Ieb+LYwiRmIOGyytgITA==
-
-nanoid@^3.1.20:
+nanoid@^3.1.12, nanoid@^3.1.20, nanoid@^3.1.30, nanoid@^3.3.1:
   version "3.3.3"
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.3.tgz#fd8e8b7aa761fe807dba2d1b98fb7241bb724a25"
   integrity sha512-p1sjXuopFs0xg+fPASzQ28agW1oHD7xDsd9Xkf3T15H3c/cifrFHVwrh74PdoklAPi+i7MdRsE47vm2r6JoB+w==
