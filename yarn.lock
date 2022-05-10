@@ -1274,10 +1274,10 @@
     get-random-values "^1.2.2"
     lodash "^4.17.15"
 
-"@sanity/cli@^2.29.6":
-  version "2.29.6"
-  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-2.29.6.tgz#4b92c4719841531ab0dff7a267f608ffe97fcc16"
-  integrity sha512-tpMm8t4olNRKX2UaPH5JlMcab/QI9XpylMpGoyDbhd9SgdDyHZJOyq96kr0KYUoTHfRLTeNZOg1TbDGFx6SPIQ==
+"@sanity/cli@^2.30.0":
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/@sanity/cli/-/cli-2.30.0.tgz#8b94448397da3ddc01617c4e3d1ce99d32ca6742"
+  integrity sha512-+VelHk/Rnr+zIfbKf+60erVUEINth1om37PVRNDtKQRVqKAjtGCRqOoDym9I3a0oAJEMHzvzWP9Q1RPxi7qkcA==
 
 "@sanity/client@^3.2.0":
   version "3.3.0"
