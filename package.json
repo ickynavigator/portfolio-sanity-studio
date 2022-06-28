@@ -45,7 +45,7 @@
   "devDependencies": {
     "@sanity/cli": "^2.29.6",
     "husky": "^7.0.4",
-    "lint-staged": ">=12.2.1",
+    "lint-staged": ">=13.0.3",
     "prettier": "^2.5.0"
   },
   "peerDependencies": {
