@@ -78,6 +78,13 @@ export default {
       type: 'array',
       of: [{ type: 'socialLink' }],
     },
+    {
+      name: 'skillTags',
+      title: 'Skills',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'category' } }],
+      validation: Rule => Rule.unique(),
+    },
   ],
 
   preview: {
