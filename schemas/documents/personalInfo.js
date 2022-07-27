@@ -26,6 +26,13 @@ export default {
       validation: Rule => Rule.required(),
     },
     {
+      title: 'Show Job Status',
+      name: 'jobVisibility',
+      type: 'boolean',
+      codegen: { required: true },
+      validation: Rule => Rule.required(),
+    },
+    {
       name: 'jobStatus',
       title: 'Job Status',
       type: 'string',
