@@ -1,5 +1,5 @@
 const config = {
-  schemaPath: './schemas/schema.js',
+  schemaPath: './schemas/schema.ts',
   outputPath: './schema.d.ts',
 
   // NOTE: The CLI ships with a pre-configured babel config that shims out
