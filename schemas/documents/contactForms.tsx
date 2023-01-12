@@ -1,14 +1,15 @@
 import React from 'react';
+import { defineField, defineType } from 'sanity';
 
-export default {
+export default defineType({
   name: 'contactForms',
   title: 'Contact Forms',
   type: 'document',
   fields: [
-    { name: 'name', title: 'Name', type: 'string' },
-    { name: 'email', title: 'Email', type: 'string' },
-    { name: 'message', title: 'Message', type: 'string' },
-    { name: 'reviewed', title: 'Reviewed', type: 'boolean' },
+    defineField({ name: 'name', title: 'Name', type: 'string' }),
+    defineField({ name: 'email', title: 'Email', type: 'string' }),
+    defineField({ name: 'message', title: 'Message', type: 'string' }),
+    defineField({ name: 'reviewed', title: 'Reviewed', type: 'boolean' }),
   ],
 
   initialValue: () => ({
@@ -34,4 +35,4 @@ export default {
       };
     },
   },
-};
+});
