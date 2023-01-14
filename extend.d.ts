@@ -1,7 +1,7 @@
 import 'sanity';
 
 declare module 'sanity' {
-  interface StringDefinition {
+  interface BaseSchemaDefinition {
     /** Required for codegen */
     codegen?: { required: boolean };
   }
