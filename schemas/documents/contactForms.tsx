@@ -22,15 +22,22 @@ export default defineType({
       email: 'email',
       status: 'reviewed',
     },
-    prepare: ({ name, email, status }) => {
-      const EMOJIS = { false: '✅', true: '🚫' };
+    prepare: ({
+      name,
+      email,
+      status,
+    }: {
+      name: string;
+      email: string;
+      status: boolean;
+    }) => {
+      const EMOJIS = { true: '✅', false: '🚫' };
+      console.log(status);
       return {
         title: name,
         subtitle: email,
         media: (
-          <span style={{ fontSize: '1.5rem' }}>
-            {status ? EMOJIS[status] : '🚫'}
-          </span>
+          <span style={{ fontSize: '1.5rem' }}>{EMOJIS[`${status}`]}</span>
         ),
       };
     },
