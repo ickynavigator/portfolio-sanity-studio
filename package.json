@@ -28,13 +28,13 @@
   ],
   "dependencies": {
     "@sanity/dashboard": "^3.1.2",
-    "@sanity/vision": "^3.2.3",
+    "@sanity/vision": "^3.2.5",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sanity": "^3.2.3",
-    "sanity-plugin-vercel-deploy": "^3.1.0",
-    "serve": "^14.1.2",
+    "sanity": "^3.2.5",
+    "sanity-plugin-vercel-deploy": "^3.3.0",
+    "serve": "^14.2.0",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
@@ -42,7 +42,7 @@
     "@babel/preset-env": "7.20.2",
     "@babel/preset-react": "7.18.6",
     "@babel/preset-typescript": "7.18.6",
-    "@sanity/cli": "^3.2.3",
+    "@sanity/cli": "^3.2.5",
     "browserslist": "4.21.4",
     "husky": "^8.0.3",
     "lint-staged": ">=13.1.0",
