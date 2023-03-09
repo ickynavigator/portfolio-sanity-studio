@@ -32,7 +32,6 @@ export default defineType({
       status: boolean;
     }) => {
       const EMOJIS = { true: '✅', false: '🚫' };
-      console.log(status);
       return {
         title: name,
         subtitle: email,
