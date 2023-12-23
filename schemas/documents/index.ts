@@ -1,9 +1,10 @@
-import { default as author } from './author';
-import { default as category } from './category';
-import { default as certificate } from './certificate';
-import { default as contactForms } from './contactForms';
-import { default as personalInfo } from './personalInfo';
-import { default as project } from './project';
+import author from './author';
+import career from './career';
+import category from './category';
+import certificate from './certificate';
+import contactForms from './contactForms';
+import personalInfo from './personalInfo';
+import project from './project';
 
 export default [
   personalInfo,
@@ -12,4 +13,5 @@ export default [
   contactForms,
   category,
   author,
+  career,
 ];
