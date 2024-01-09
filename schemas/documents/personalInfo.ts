@@ -66,17 +66,9 @@ export default defineType({
     defineField({
       name: 'bio',
       title: 'Bio',
-      type: 'array',
+      type: 'blockContent',
       codegen: { required: true },
       validation: Rule => Rule.required(),
-      of: [
-        defineArrayMember({
-          title: 'Block',
-          type: 'block',
-          styles: [{ title: 'Normal', value: 'normal' }],
-          lists: [],
-        }),
-      ],
     }),
     defineField({
       name: 'socialLinks',
