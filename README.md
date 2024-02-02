@@ -1,3 +1,5 @@
+THIS IS NO LONGER IN USE SINCE THE [CLIENT](https://github.com/ickynavigator/portfolio-sanity-client) NOW HAS THE STUDIO BUILT IN.
+
 # Portfolio Sanity Studio
 
 This is the sanity CMS that powers it's sister project [portfolio-sanity-client](https://github.com/ickynavigator/portfolio-sanity-client). It can be deployed on it's own and used to store info for any other framework.
