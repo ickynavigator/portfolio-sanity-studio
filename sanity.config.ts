@@ -6,8 +6,8 @@ import schemas from './schemas/schema';
 
 export default defineConfig({
   title: 'portfolio',
-  projectId: 'cmvslwxy',
-  dataset: 'production',
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
   plugins: [deskTool(), visionTool(), vercelDeployTool()],
   schema: {
     types: schemas,
