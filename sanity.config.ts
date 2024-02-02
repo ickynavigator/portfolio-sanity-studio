@@ -2,12 +2,13 @@ import { visionTool } from '@sanity/vision';
 import { defineConfig } from 'sanity';
 import { vercelDeployTool } from 'sanity-plugin-vercel-deploy';
 import { deskTool } from 'sanity/desk';
+import config from './config';
 import schemas from './schemas/schema';
 
 export default defineConfig({
   title: 'portfolio',
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
+  projectId: config.projectId,
+  dataset: config.dataset,
   plugins: [deskTool(), visionTool(), vercelDeployTool()],
   schema: {
     types: schemas,

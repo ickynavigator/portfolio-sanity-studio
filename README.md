@@ -6,7 +6,9 @@ This is the sanity CMS that powers it's sister project [portfolio-sanity-client]
 
 ## Getting Started
 
-### Environment Variables
+### Configuration
+
+The Config file can be found in the root of the application at [./config](./config.ts)
 
 The Sanity Dataset is the name of the dataset you want to use. Go to your sanity project datasets page to find it
 
