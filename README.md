@@ -1,11 +1,39 @@
-# Sanity Blogging Content Studio
+# Portfolio Sanity Studio
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+This is the sanity CMS that powers it's sister project [portfolio-sanity-client](https://github.com/ickynavigator/portfolio-sanity-client). It can be deployed on it's own and used to store info for any other framework.
 
-Now you can do the following things:
+## Getting Started
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- Check out the example frontend: [React/Next.js](https://github.com/sanity-io/tutorial-sanity-blog-react-next)
-- [Read the blog post about this template](https://www.sanity.io/blog/build-your-own-blog-with-sanity-and-next-js?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+### Environment Variables
+
+The Sanity Dataset is the name of the dataset you want to use. Go to your sanity project datasets page to find it
+
+```bash
+NEXT_PUBLIC_SANITY_DATASET =
+```
+
+The Sanity project id is the id linked with the sanity project. It should be on the dashboard of your sanity project.
+
+```bash
+NEXT_PUBLIC_SANITY_PROJECT_ID =
+```
+
+## Commands
+
+### Starting the App
+
+Run the development server:
+
+```bash
+yarn run dev
+```
+
+#### Viewing the studio
+
+Open [http://localhost:3000](http://localhost:3000) to see the result.
+
+### Generate the schema types
+
+```bash
+yarn run codegen
+```
